@@ -1,4 +1,39 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Homepage"
+title = "Origin Open Jaw"
 theme = "hugo-nederburg-theme"
+
+# Paginate front page
+paginate = 5
+
+[params]
+  slogan = "Travels, tribulations, and optimizations"
+  description = "Describe your website" # meta description
+  author = "Newton Wolfe and Willa Cai"
+  #authorLink = "https://willacai.com/"
+  #bio = [
+  #  "Göran is an avid blogger and the founder of <a href='https://appernetic.io/'>Appernetic.io</a>. This is the author bio shown after posts."
+  #]
+  copyright = [
+    "&copy; 2018 Newton Wolfe and Willa Cai",
+    "Nederburg Hugo Theme by [Appernetic](https://appernetic.io).",
+    "A port of Tracks by Compete Themes."
+  ]
+
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 2
+
+  [[menu.main]]
+  name = "Get in touch"
+  url = "contact/"
+  weight = 3
+  
+  # Social buttons
+  rss = true
