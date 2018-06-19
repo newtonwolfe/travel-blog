@@ -36,4 +36,5 @@ paginate = 5
   weight = 3
   
   # Social buttons
+  [params.social]
   rss = true
