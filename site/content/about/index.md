@@ -1,6 +1,6 @@
 ---
-date = "2018-06-19T00:00:00+08:00"
-title = "About us"
+date: "2018-06-19T00:00:00+08:00"
+title: "About us"
 ---
 
 Willa and Newton are recent Badger grads adventuring before real life sets in. If you're reading this blog, chances are you know them.
