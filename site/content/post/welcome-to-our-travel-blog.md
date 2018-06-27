@@ -1,6 +1,6 @@
 ---
 title: Hello World*
-date: '2018-06-18T21:04:54+09:00'
+date: '2018-06-27T22:07:54+09:00'
 categories:
   - meta
 image: /img/20180616-shinjuku-block.jpg
