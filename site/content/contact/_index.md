@@ -1,19 +1,8 @@
 ---
-title: "Contact"
-logo: "/img/logo.svg"
-contact_entries:
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+title: Contact
 ---
+# Send us a postcard!
 
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
+Wait, you don't know our address while we're abroad? That's fair; half the time, neither did we. This contact page is the next best thing: use it to send us your thoughts, comments, questions, assertions, photos, or anything that's on your mind!
 
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
-
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
+(Although, by the time you see this, we're probably already home, on regular social media, and back to normal communication...but still feel free to send us a postcard! (Literally? Figuratively? I'm so confused...))
