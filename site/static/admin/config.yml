@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: newtonwolfe/travel-blog
+  squash_merges: true
   
 publish_mode: editorial_workflow
 
