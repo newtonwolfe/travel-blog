@@ -1,0 +1,52 @@
+{{ define "body" }}
+
+<body class="page-template-default page ct-body singular singular-page not-front standard">
+{{ end }}
+  {{ define "main" }}
+  <div id="main" class="main" role="main">
+
+
+  	<div id="loop-container" class="loop-container">
+  		<div class="entry">
+  		<div class="entry-header">
+  		<h1 class="entry-title">{{ .Title }}</h1>
+  	</div>
+  	<div class="entry-container">
+  		<div class="entry-content">
+  			<article>
+  				{{ .Content }}
+
+  		<div id="simple-contact-form" class="scf">
+  			<form method="post" name="contact" netlify>
+  				<fieldset class="name">
+  					<label for="scf_name">Your Name</label>
+  					<input name="scf_name" id="scf_name" type="text" size="33" maxlength="99" value="" placeholder="Namey McNameFace">
+  				</fieldset>
+  				<fieldset class="scf-email">
+  					<label for="scf_email">Your Email</label>
+  					<input name="scf_email" id="scf_email" type="text" size="33" maxlength="99" value="" placeholder="email@example.com">
+  				</fieldset>
+  				<fieldset class="scf-message">
+  					<label for="scf_message">Your Message</label>
+  					<textarea name="scf_message" id="scf_message" cols="33" rows="7" placeholder="Hi, I'd like to add you to my professional network on LinkedIn!"></textarea>
+  				</fieldset>
+          <fieldset class="scf-response">
+  					<label for="scf_response">You're human, right?</label>
+  					<div data-netlify-recaptcha></div>
+  				</fieldset>
+  				<div class="scf-submit">
+  					<input type="submit" id="scf-button" value="Submit!">
+  					<input type="hidden" id="scf-key" name="scf-key" value="process">
+  					<input type="hidden" id="scf-nonce" name="scf-nonce" value="52582b0798">
+  				</div>
+  			</form>
+        <style>#simple-contact-form fieldset { width: 100%; overflow: hidden; margin: 12px 0; border: 0; padding: 1px; } #simple-contact-form fieldset input { float: left; width: 60%; } #simple-contact-form textarea { float: left; clear: both; width: 95%; } #simple-contact-form label { float: none; clear: both; display: block; margin-bottom: 12px;}</style>
+  		</div>
+  		<div style="clear:both">&nbsp;</div>
+  							</article>
+  		</div>
+  			</div>
+  </div>	</div>
+
+  </div>
+    {{ end }}
