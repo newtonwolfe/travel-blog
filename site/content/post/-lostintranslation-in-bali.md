@@ -1,5 +1,5 @@
 ---
-title: '#LostInTranslation in Bali'
+title: '#LostInTranslation: Bali'
 date: '2018-07-01T15:05:06+09:00'
 categories:
   - LostInTranslation
